@@ -1,0 +1,109 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeIn 1.1s ease-out;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    width: 100%;
+}
+
+.description-text {
+    width: 55%;
+    text-align: left;
+}
+
+.img-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 15rem;
+    height: auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.btns {
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+.about-link, .projects-btn {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-link {
+    color: white;
+    background: none;
+    position: relative;
+}
+
+.projects-btn {
+    background-color: #ffffff;
+    color: #121212;
+    transition: transform 0.3s ease;
+}
+
+.about-link:hover {
+    color: aquamarine;
+}
+
+.about-link::before {
+    content: '➔';
+    position: absolute;
+    left: -0.5rem;
+    top: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease, left 0.3s ease;
+}
+
+.about-link:hover::before {
+    opacity: 1;
+    left: -0.5 rem;
+}
+
+.projects-btn:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .description {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .description-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .img-container {
+        width: 10rem;
+        margin-top: 2rem;
+    }
+}
