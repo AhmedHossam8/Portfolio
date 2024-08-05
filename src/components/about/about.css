@@ -1,0 +1,30 @@
+.about-title {
+    color: aquamarine;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.about-text {
+    margin-top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    color: white;
+}
+
+.image-container {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.about-image {
+    max-width: 70%;
+    max-height: 70%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .about-image {
+        max-width: 100%;
+    }
+}

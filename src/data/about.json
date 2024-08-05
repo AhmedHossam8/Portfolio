@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Academic Excellence",
+        "content": [
+            "I’m Ahmed Emara, a fresh Computer Science graduate.",
+            "Throughout my academic career, I consistently secured the top position in my class for two consecutive semesters, demonstrating my insatiable curiosity and unwavering dedication to excellence.",
+            "My graduation project received funding from ITIDA.",
+            "Secured 3rd place in the 6th Olympiad for the Computer Science and Informatics Sector for the graduation project’s innovative impact on education.",
+            "I was honored with the 2023/2024 Computer Science Society Prize for the best capstone project."
+        ],
+        "image": "./assets/about.jpg"
+    },
+    {
+        "title": "Competitive Achievement",
+        "content": [
+            "Represented my university at the ECPC in summer 2022.",
+            "Collaborated with exceptional peers to conquer intricate coding challenges, showcasing my resilience in real-world problem-solving scenarios."
+        ]
+    },
+    {
+        "title": "Teaching and Mentorship",
+        "content": [
+            "Beyond the classroom, I've embraced a role as a problem-solving instructor.",
+            "Guiding fellow students through coding challenges, deepening my understanding and igniting a passion for teaching and mentorship."
+        ]
+    },
+    {
+        "title": "Internship Experience",
+        "content": [
+            "My 2023 ITWorx internship transformed me, enhancing technical skills and creative problem-solving. A highlight was co-developing an AI-driven comic app that merges user prompts with AI images for captivating comic strips. This spanned AI APIs, image processing, and frontend work. Collaborating with experts, I grasped iterative tech refinement and learned adaptability.",
+            "Resulting from my ITWorx internship, the AI comic app epitomizes tech-creativity harmony. It interprets user prompts, AI-curates images, and creates dynamic comics. I contributed in AI integration, image processing, and frontend. This deepened my tech prowess and renewed my innovation dedication. Excited to further leverage tech for impactful strides in computer science."
+        ],
+        "image": "./assets/internship.JPG"
+    },
+    {
+        "title": "Future Aspirations",
+        "content": [
+            "My journey in the world of Computer Science is an ever-evolving adventure.",
+            "Eagerly leveraging my skills and experiences to push boundaries and create a meaningful impact.",
+            "Continuing to explore new horizons, collaborate on innovative projects, and strive for excellence in the ever-dynamic realm of technology."
+        ]
+    }
+]
