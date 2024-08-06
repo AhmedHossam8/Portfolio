@@ -1,0 +1,82 @@
+{
+    "tabs": [
+      {
+        "title": "Front-End Development",
+        "content": [
+          {
+            "sectionTitle": "Languages",
+            "items": ["HTML", "CSS", "JavaScript"]
+          },
+          {
+            "sectionTitle": "Frameworks",
+            "items": ["Bootstrap", "React js", "TypeScript"]
+          }
+        ]
+      },
+      {
+        "title": "Back-End Development",
+        "content": [
+          {
+            "sectionTitle": "Languages",
+            "items": ["Python", "PHP"]
+          },
+          {
+            "sectionTitle": "Frameworks",
+            "items": ["Node js", "ASP.NET", "Fast API"]
+          },
+          {
+            "sectionTitle": "Database Management",
+            "items": ["SQL", "NoSQL", "MySQL", "MongoDB", "PostgreSQL"]
+          }
+        ]
+      },
+      {
+        "title": "Mobile Development",
+        "content": [
+          {
+            "sectionTitle": "Languages",
+            "items": ["Kotlin", "Java"]
+          },
+          {
+            "sectionTitle": "Frameworks",
+            "items": ["Flutter", "React Native"]
+          },
+          {
+            "sectionTitle": "Database Management",
+            "items": ["FireBase"]
+          }
+        ]
+      },
+      {
+        "title": "Programming Languages",
+        "content": [
+          {
+            "sectionTitle": "Languages",
+            "items": ["C", "C++", "C#", "Python"]
+          },
+          {
+            "sectionTitle": "More Languages",
+            "items": ["Java", "Kotlin", "JavaScript"]
+          }
+        ]
+      },
+      {
+        "title": "Others",
+        "content": [
+          {
+            "sectionTitle": "Patterns & Practices",
+            "items": ["OOP", "Data Structure", "AI"]
+          },
+          {
+            "sectionTitle": "Tools & Platforms",
+            "items": ["GIT", "Rest API"]
+          },
+          {
+            "sectionTitle": "Design",
+            "items": ["Photoshop", "Illustrator", "Figma"]
+          }
+        ]
+      }
+    ]
+  }
+  

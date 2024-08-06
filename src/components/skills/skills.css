@@ -1,0 +1,38 @@
+.skills-title {
+    color: aquamarine;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.MuiTab-root {
+    color: white;
+}
+
+.MuiTabPanel-root {
+    padding: 16px;
+}
+
+.tab-panel {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-titles {
+    color: aquamarine;
+}
+
+.skill-contents {
+    color: white;
+}
+
+.box {
+    margin-right: 5rem;
+}

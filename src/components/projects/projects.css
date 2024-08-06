@@ -1,0 +1,108 @@
+.projects-title {
+    text-align: left;
+    margin-left: 10%;
+    color: aquamarine;
+}
+
+.card-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15rem;
+    margin-top: 10rem;
+}
+
+.custom-carousel {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    color: white;
+}
+
+.carousel-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.carousel-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.carousel-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 60vh;
+    margin-bottom: 10px;
+}
+
+.carousel-body {
+    margin-bottom: 2rem;
+}
+
+.carousel-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.carousel-button:hover {
+    background-color: #0056b3;
+}
+
+.external-arrow-div {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.left-arrow {
+    left: 1rem;
+}
+
+.right-arrow {
+    right: 1rem;
+}
+
+.external-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel .control-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    .custom-carousel {
+        width: 90%;
+    }
+
+    /* .external-arrow-div {
+        display: none;
+    } */
+}
