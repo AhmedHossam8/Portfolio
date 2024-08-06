@@ -5,15 +5,14 @@ import Home from './components/home/home';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
 
       <ResponsiveAppBar />
-
       <Home />
-
       <Divider
         style={{
           color: "white",
@@ -23,9 +22,7 @@ function App() {
       >
         ~ ~ ~
       </Divider>
-
       <About />
-
       <Divider
         style={{
           color: "white",
@@ -35,9 +32,7 @@ function App() {
       >
         ~ ~ ~
       </Divider>
-
       <Projects />
-
       <Divider
         style={{
           color: "white",
@@ -47,8 +42,8 @@ function App() {
       >
         ~ ~ ~
       </Divider>
-
       <Skills />
+      <Footer />
 
     </div>
   );
